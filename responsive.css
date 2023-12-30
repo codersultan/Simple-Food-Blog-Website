@@ -1,0 +1,49 @@
+
+
+/* Responsive CSS */
+
+@media all and (max-width:1024px){
+    .banner-section{
+        position: relative;
+    }
+    .banner-content{
+        left: 20%;
+        width: 350px;
+        position: absolute;
+    }
+    .banner-content h2{
+        font-size: 2.4rem;
+    }
+}
+
+@media all and (max-width:992px){
+
+    .menu nav ul li{
+        display: none;
+    }
+
+    .menu nav ul li:last-child{
+        display: block;
+        font-size: 2.4rem;
+    }
+    .banner-content h2{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width:768px){
+    .banner-section{
+        height: 400px;
+    }
+    .banner-content h2{
+        font-size: rem;
+    }
+}
+
+@media all and (max-width:552px){
+
+}
+
+@media all and (max-width:480px){
+
+}
